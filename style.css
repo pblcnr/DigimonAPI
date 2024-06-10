@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#app {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+input[type="text"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.digimon-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.digimon-container ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.digimon-container li {
+    flex: 1 0 21%;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.digimon-card img {
+    max-width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.digimon-card p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+}
+
+.details {
+    margin-top: 10px;
+}
+
+.rookie {
+    background-color: #cfe3ff;
+}
+
+.champion {
+    background-color: #ffcfe3;
+}
+
+.ultimate {
+    background-color: #e3ffc7;
+}
+
+.mega {
+    background-color: #fffdc7;
+}
+
+.fresh {
+    background-color: #ffe3c7;
+}
+
+.in-training {
+    background-color: #c7e3ff;
+}
